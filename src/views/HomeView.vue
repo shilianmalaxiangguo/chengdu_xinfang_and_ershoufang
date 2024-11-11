@@ -1,6 +1,6 @@
 <script setup lang="ts">
 
-import MainComponent from '@/views/main.vue'
+import MainComponent from '@/views/Main.vue'
 </script>
 
 <template>
