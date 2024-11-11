@@ -13,7 +13,7 @@ import 'reset-css'
 import VChart from "vue-echarts";
 
 const app = createApp(App)
-app.component('v-chart', VChart)
+app.component('VChart', VChart)
 
 app.use(ElementPlus)
 app.use(createPinia())

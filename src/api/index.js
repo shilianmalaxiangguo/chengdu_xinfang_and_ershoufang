@@ -12,5 +12,5 @@ import http from '@/utils/http';
 
 
 export const getErFangZiList = (params) => {
-  return http.get('news/list?page=1&category=lk:xinfangzixun', { params });
+  return http.get('news/list', { params });
 }
